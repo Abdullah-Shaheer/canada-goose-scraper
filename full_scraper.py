@@ -12,7 +12,7 @@ import time
 headers = {
     'Accept': '*/*',
     'Accept-Language': 'en-US,en;q=0.9',
-    'Authorization': 'Bearer eyJ2ZXIiOiIxLjAiLCJqa3UiOiJzbGFzL3Byb2QvYWF0YV9wcmQiLCJraWQiOiI0MGViM2I1Mi1lOTAxLTQzODAtODA5OS1mMWI0ODYxNmQ5ZDMiLCJ0eXAiOiJqd3QiLCJjbHYiOiJKMi4zLjQiLCJhbGciOiJFUzI1NiJ9.eyJhdXQiOiJHVUlEIiwic2NwIjoic2ZjYy5zaG9wcGVyLW15YWNjb3VudC5iYXNrZXRzIHNmY2Muc2hvcHBlci1kaXNjb3Zlcnktc2VhcmNoIHNmY2Muc2hvcHBlci1teWFjY291bnQucGF5bWVudGluc3RydW1lbnRzIHNmY2Muc2hvcHBlci1jdXN0b21lcnMubG9naW4gc2ZjYy5zaG9wcGVyLWV4cGVyaWVuY2Ugc2ZjYy5zaG9wcGVyLW15YWNjb3VudC5vcmRlcnMgc2ZjYy5zaG9wcGVyLXByb2R1Y3RsaXN0cyBjX3B3YWN1c3RvbXByZWZzX3Igc2ZjYy5zaG9wcGVyLXByb21vdGlvbnMgc2ZjYy5zZXNzaW9uX2JyaWRnZSBzZmNjLnNob3BwZXItbXlhY2NvdW50LnBheW1lbnRpbnN0cnVtZW50cy5ydyBzZmNjLnNob3BwZXItbXlhY2NvdW50LnByb2R1Y3RsaXN0cyBzZmNjLnNob3BwZXItY2F0ZWdvcmllcyBzZmNjLnNob3BwZXItbXlhY2NvdW50IGNfY2dmaW5kc3RvcmVpbnZlbnRvcnlfciBjX0N1c3RvbVByb2R1Y3REYXRhX3Igc2ZjYy5zaG9wcGVyLW15YWNjb3VudC5hZGRyZXNzZXMgc2ZjYy5zaG9wcGVyLXByb2R1Y3RzIHNmY2MudGFfZXh0X29uX2JlaGFsZl9vZiBzZmNjLnNob3BwZXItbXlhY2NvdW50LnJ3IHNmY2Muc2hvcHBlci1zdG9yZXMgc2ZjYy5zaG9wcGVyLWNvbnRleHQucncgc2ZjYy5zaG9wcGVyLWJhc2tldHMtb3JkZXJzIHNmY2Muc2hvcHBlci1jdXN0b21lcnMucmVnaXN0ZXIgc2ZjYy5zaG9wcGVyLW15YWNjb3VudC5hZGRyZXNzZXMucncgc2ZjYy5zaG9wcGVyLW15YWNjb3VudC5wcm9kdWN0bGlzdHMucncgc2ZjYy5zaG9wcGVyLWJhc2tldHMtb3JkZXJzLnJ3IHNmY2Muc2hvcHBlci1naWZ0LWNlcnRpZmljYXRlcyBzZmNjLnNob3BwZXItcHJvZHVjdC1zZWFyY2ggc2ZjYy5zaG9wcGVyLXNlbyBjX2hyZWZ1cmxkYXRhX3IiLCJzdWIiOiJjYy1zbGFzOjphYXRhX3ByZDo6c2NpZDo5NTk4ZTRjNi0wMWViLTRiZmYtYWRmZS05NTUxZjI4Mjg1Yjc6OnVzaWQ6OWY1NWU4MTAtZjFkMS00ZWE2LTljN2YtZGE0MjcwMWFmYzRlIiwiY3R4Ijoic2xhcyIsImlzcyI6InNsYXMvcHJvZC9hYXRhX3ByZCIsImlzdCI6MSwiZG50IjoiMCIsImF1ZCI6ImNvbW1lcmNlY2xvdWQvcHJvZC9hYXRhX3ByZCIsIm5iZiI6MTc2MjE3Njc2Niwic3R5IjoiVXNlciIsImlzYiI6InVpZG86c2xhczo6dXBuOkd1ZXN0Ojp1aWRuOkd1ZXN0IFVzZXI6OmdjaWQ6YWVjbUdnQm9tUDNXQlAzYm9heFlqOURDUmU6OnNlc2I6c2Vzc2lvbl9icmlkZ2U6OmNoaWQ6Q2FuYWRhR29vc2VDQSIsImV4cCI6MTc2MjE3ODU5NiwiaWF0IjoxNzYyMTc2Nzk2LCJqdGkiOiJDMkMtNzk1MDE2NDc2MDExMjM2NTE3MzE0NDg2MTE3MTYwODkxMDg3In0.iG9jo2kBMUA9G1aBnOEGdBzkhm7myQzQ09cpCPRAlzXKwpqKNqoefxV7j8Fa0hg_O4dr3Up7OM_qNozaWvx0Rw',
+    'Authorization': Your Bearer Authentication token,
     'Cache-Control': 'no-cache',
     'Connection': 'keep-alive',
     'Pragma': 'no-cache',
@@ -24,11 +24,11 @@ headers = {
     'sec-ch-ua': '"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"',
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
-    'sfdc_dwsid': 'aBAUnHV1MH1J_d5FYSMOyHO7zNbrqRiOjvPtTVUik0XMVpGot4kUTbtvQXvTI8jNhGeFVjv6T8BRnY9KGrNiaQ==',
-    'x-kpsdk-ct': '0OfvrdmrVt2ZXqm7fy3lnSf2OpmVBAg6SLKPEMnWT24JIW5FD2Mi47vYDJR4xyIWeU8P7szWrBSwpfDm2xfZ2nv5s07gvulr4JBBumIiG8NEqgEnNgGjVjOx4Z4CZD7B5B8YYEMLZBJCOCcJ1PutjIZ06xzS2mvuLNBaWQ8ABKKGSm2e',
-    'x-kpsdk-h': '01Phm/hn8jhhrNcmqWDCaXfhUn8sw=',
-    'x-kpsdk-v': 'j-1.1.29169',
-    'x-mobify': 'true',
+    'sfdc_dwsid': You can get by mimicking the headers,
+    'x-kpsdk-ct': You can get by mimicking the headers,
+    'x-kpsdk-h': You can get by mimicking the headers,
+    'x-kpsdk-v': You can get by mimicking the headers,
+    'x-mobify': You can get by mimicking the headers,
 }
 
 
@@ -444,3 +444,4 @@ rows = main()
 df = pd.DataFrame(rows)
 df.to_csv("all_data.csv", index=False)
 print("Saved clean CSV. Sample head:\n", df.head())
+
